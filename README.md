@@ -20,7 +20,7 @@ NOTE: This program can be easily run with Microsoft Visual Studio.
 NOTE: MainProgram.cs is a main cs file
 
 ## Merge Sort
-This algorithm creates inner groups and sort them individually, and then merges them into a new array.
+This algorithm creates inner groups and sorts them individually, and then merges them into a new array.
 
 A typical example of an algorithm that can be implemented with recursion.
 
