@@ -16,6 +16,7 @@ NOTE: This program can be easily run with Microsoft Visual Studio.
 NOTE: MainProgram.cs is a main cs file
 
 1. Merge Sort
+
 This algorithm creates inner groups and sort them individually, and then merges them into a new array.
 A typical example of an algorithm that can be implemented with recursion.
 Every time, two elements are compared and swapped each other.
@@ -30,6 +31,7 @@ e.g. the list represents "earlier" positions in each merge has priority if two e
 
 
 2. Quick Sort
+
 Divide and Conquer algorithm, replies on a partition operation.
 
 To partition on array, choose an element called a pivot, move all smaller elements before the pivot,
@@ -42,6 +44,7 @@ and move all greater elements after the pivot. Later, recursively sort the lesse
 
 
 3. Heap Sort
+
 Comparision-based sorting algorithm, and is part of the Selection Sort family.
 As good as Quick Sort, but works better in worst-case.
 
@@ -56,6 +59,7 @@ This is repeated till there are no items left in the heap and the sorted array i
 
 
 4. Bubble Sort
+
 Simple sorting method, efficient for small lists and mostly-sorted lists.
 
 It works by taking elements from the list one by one, and insert into their correct position into a new sorted list.
@@ -68,6 +72,7 @@ Shell sort is a variant for Insertion Sort, better for larger lists, because in 
 
 
 5. Shell Sort
+
 Improved sort methods from Bubble Sort and Insertion Sort by moving out of order elements more than one position at a time.
 It compares elements separated by a gap of several positions.
 
@@ -78,6 +83,7 @@ It compares elements separated by a gap of several positions.
 
 
 6. Selection Sort
+
 All cases has O(n^2) complexity, which is not efficient on large lists.
 Similar to Insertion Sort but worse.
 Simplicity is its strong point, so it performs great in complicated algorithms.
@@ -90,6 +96,7 @@ It performs better than Bubble Sort in most cases.
 
 
 7. Insertion Sort
+
 Simple sorting method, efficient for small lists and mostly-sorted lists.
 
 It works by taking elements from the list one by one and insert into their correct position into a new sorted list.
